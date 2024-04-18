@@ -1,0 +1,47 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/97/86/ec/9786ec883756c755df35a331ff902f3b.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; 
+    background-position: center; 
+
+}
+.login {
+    width: 300px; 
+    height: 200px; 
+    background-color: #0D0D0D;
+    border: 2px solid #ccc; 
+    padding: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 100px;
+    display: flex;
+    text-align: center; 
+}
+
+.home{
+    color: #0D0D0D;
+}
+
+label {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+    color: #A5F230;
+}
+
+.btn_login {
+    font-size: medium;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px; /* Ajusta el espaciado dentro del botón */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn_login:hover {
+    background-color: #408C1C;
+    color: #D5CDD2;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+
